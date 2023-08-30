@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo1.png";
+import resume from "../assets/resume.pdf";
 import {
   FaBars,
   FaTimes,
@@ -123,7 +124,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/15kNEojvr_wwVypANZGk9VQ9mwCwpRGuZ/edit?usp=sharing&ouid=117287733287345850608&rtpof=true&sd=true"
+              href={resume}
               target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
