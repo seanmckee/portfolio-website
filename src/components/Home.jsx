@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume1.pdf";
 
 const Home = () => {
   return (
